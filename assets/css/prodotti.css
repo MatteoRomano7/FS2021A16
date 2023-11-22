@@ -1,0 +1,60 @@
+\\REGOLE GENERALI\\
+
+body {
+  text-align: center;
+}
+header,
+.fotoDesc,
+#latestNews {
+  background-color: antiquewhite;
+
+  main {
+    text-align: center;
+  }
+  \\REGOLE HEADER\\
+
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+li {
+  margin: 5px;
+}
+
+.headerLinkShop {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: goldenrod;
+  font-weight: bold;
+  color: brown;
+}
+
+.headerLink {
+  background-color: goldenrod;
+  font-weight: bold;
+  color: brown;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.fotoDesc {
+  margin-bottom: 2rem;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: center;
+}
+img {
+  width: 100%;
+}
