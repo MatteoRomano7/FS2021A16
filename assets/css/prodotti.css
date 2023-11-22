@@ -1,25 +1,47 @@
 \\REGOLE GENERALI\\
 
 body {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+header {
+  border-radius: 25px;
+}
+
 header,
 .fotoDesc,
 #latestNews {
   background-color: antiquewhite;
+}
 
-  main {
-    text-align: center;
-  }
-  \\REGOLE HEADER\\
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: brown;
+}
 
+main {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+/*REGOLE HEADER*/
 
 .buttonContainer {
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 20px;
-  }
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
 }
+
 ul {
   list-style-type: none;
   margin: 1rem;
@@ -38,6 +60,7 @@ li {
   background-color: goldenrod;
   font-weight: bold;
   color: brown;
+  padding: 1rem;
 }
 
 .headerLink {
@@ -47,14 +70,60 @@ li {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  padding: 0.5rem;
+}
+/*REGOLE MAIN*/
+h2 {
+  font-size: 2.5rem;
+  margin-top: 1.5 rem;
 }
 
 .fotoDesc {
   margin-bottom: 2rem;
+  margin-top: 1rem;
   border-radius: 25px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+}
+
+.fotoDesc p {
+  font-weight: bold;
+  color: brown;
+  margin-top: 1rem;
+}
+
+.fotoDesc .Italian {
+  width: 50%;
+  box-sizing: border-box;
+  text-align: left;
+  color: brown;
 }
 img {
   width: 100%;
+}
+
+.addToCart {
+  background-color: goldenrod;
+  font-weight: bold;
+  color: brown;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 50%;
+  padding: 0.5rem;
+}
+
+#latestNews {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+#latestNews p {
+  margin-bottom: 1rem;
 }
